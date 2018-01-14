@@ -1,0 +1,5 @@
+mongod --bind_ip=$IP --dbpath=db --nojournal --rest "$@" 
+
+if database is corrected -- before the @sign - between rest & "  -- add --repair, run once and then delete --repair & save - should work afterward
+
+
